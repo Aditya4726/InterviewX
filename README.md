@@ -1,22 +1,3 @@
-#.env
-
-# Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-# Convex (CONVEX_DEPLOYMENT is added for you by `npx convex dev`)
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-NEXT_PUBLIC_CONVEX_SITE_URL=
-
-# Stream
-NEXT_PUBLIC_STREAM_API_KEY=
-STREAM_SECRET_KEY=
-
-
-
-
-
 # InterviewX
 
 **A real-time technical interview platform.** Interviewers and candidates meet face to face in a virtual room, solve problems together in a live code editor, and keep every interview scheduled and tracked in one place.
@@ -130,15 +111,6 @@ convex/             Backend functions and schema (users, interviews, comments, c
 public/             Static assets
 ```
 
-## Roadmap
-
-- [ ] Email reminders for scheduled interviews
-- [ ] Structured interview ratings
-
 ## Contributing
 
 Contributions are welcome. Fork the repo, create a branch, make your changes and open a pull request.
-
-## License
-
-Released under the [MIT License](LICENSE).
